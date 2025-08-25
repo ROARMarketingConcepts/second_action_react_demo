@@ -7,5 +7,3 @@ jobs:
       - name: Output Github context
         run: echo "GITHUB_CONTEXT: ${{ toJSON(github) }}"
 
-      - name: Output information
-        run: echo "Information has been outputted successfully!"

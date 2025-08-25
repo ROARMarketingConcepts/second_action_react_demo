@@ -5,5 +5,5 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Output Github context
-        run: echo "GITHUB_CONTEXT: ${{ toJSON(github) }}"
+        run: echo ${{ toJSON(github) }}
 
